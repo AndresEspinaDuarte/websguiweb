@@ -1,0 +1,58 @@
+body {
+    background-color: #F7F8F7;
+    margin: auto;
+}
+section {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    max-width: 1600px;
+    margin: auto;
+    margin-top: 5%;
+    width: 86%;
+}
+.hero img.logo-header {
+    max-width: 200px;
+}
+h1 {
+    height: 240px;
+    width: 559px;
+    color: #2E4159;
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 80px;
+}
+h2 {
+    height: 80px;
+    width: 559px;
+    color: #2E4159;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 40px;
+}
+h2 span {
+    font-weight: 600;
+}
+a {
+    height: 62px;
+    width: 348px;
+}
+a {
+    height: 32px;
+    width: 256px;
+    color: #2E4159;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    line-height: 32px;
+    text-align: center;
+}
+.path {
+    height: 16px;
+    width: 12px;
+    background-color: #FF4FFF;
+}
